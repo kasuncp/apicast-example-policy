@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: Template
 metadata:
-  name: "apicast-example-policy"
-message: "APIcast Example Policy"
+  name: "apicast-custom-headers-policy"
+message: "APIcast Custom Headers Policy"
 objects:
 
 - apiVersion: v1

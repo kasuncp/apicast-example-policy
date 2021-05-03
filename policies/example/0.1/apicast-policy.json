@@ -1,9 +1,9 @@
 {
   "$schema": "http://apicast.io/policy-v1/schema#manifest#",
-  "name": "APIcast Example Policy",
-  "summary": "This is just an example.",
-  "description": "This policy is just an example how to write your custom policy.",
-  "version": "0.1",
+  "name": "Randoli Custom Headers Policy",
+  "summary": "Passes JWT token attributes as HTTP headers downstream.",
+  "description": "This policy will copy speicfied fields from the JWT token in the Authorization header and set as separate HTTP headers in the request.",
+  "version": "1.0",
   "configuration": {
     "type": "object",
     "properties": { }
