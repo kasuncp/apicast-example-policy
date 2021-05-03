@@ -19,7 +19,7 @@ objects:
     annotations:
     labels:
       app: apicast
-    name: apicast-example-policy
+    name: apicast-custom-policy
   spec:
     output:
       to:
