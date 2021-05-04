@@ -1,4 +1,5 @@
 #!/bin/sh
 
 echo "---> Copying policy source..."
+chmod 777 /tmp/src
 cp -Rf /tmp/src/. ./
