@@ -1,10 +1,10 @@
 #!/bin/sh
 
-echo "---> ls -la /tmp:"
-ls -la /tmp
-
 echo "---> ls -la /tmp/src:"
 ls -la /tmp/src
+
+echo "---> chmod:"
+chmod 777 /tmp/src
 
 echo "---> Copying policy source..."
 cp -Rf /tmp/src/. ./
