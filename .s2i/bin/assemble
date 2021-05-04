@@ -1,7 +1,4 @@
 #!/bin/sh
 
-echo "---> ls -la /tmp/src:"
-ls -la ./
-
 echo "---> Copying policy source..."
-cp -Rf /tmp/src/. .
+sudo cp -Rf /tmp/src/. ./
