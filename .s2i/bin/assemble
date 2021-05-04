@@ -1,5 +1,8 @@
 #!/bin/sh
 
-echo "---> Copying policy source..."
+echo "---> Changing directory permissions..."
 chmod 777 /tmp/src
+chown -R 1001:0 /tmp
+
+echo "---> Copying policy source..."
 cp -Rf /tmp/src/. ./
