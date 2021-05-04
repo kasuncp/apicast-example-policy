@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo "---> Copying policy source..."
-sudo cp -Rf /tmp/src/. ./
+cp -Rf /tmp/src/. ./
